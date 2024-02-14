@@ -1,0 +1,17 @@
+[package]
+name = "route53-exporter"
+version = "0.1.0"
+edition = "2021"
+authors = ["Fraol Lemecha","frectonz <fraol0912@gmail.com>"]
+description = "A program that exports hosted zone data into a JSON file."
+license = "MIT"
+
+[dependencies]
+aws-config = "1.1.5"
+aws-sdk-route53 = "1.14.0"
+clap = { version = "4.5.0", features = ["derive"] }
+color-eyre = "0.6.2"
+inquire = "0.6.2"
+serde = { version = "1.0.196", features = ["derive"] }
+serde_json = "1.0.113"
+tokio = { version = "1.36.0", features = ["full"] }
