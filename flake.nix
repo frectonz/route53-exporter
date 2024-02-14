@@ -50,8 +50,8 @@
           ];
 
           shellHook = ''
-            export AWS_ACCESS_KEY_ID=AKIAW2VEI4DLTEQKYHFT
-            export AWS_SECRET_ACCESS_KEY=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
+            export AWS_ACCESS_KEY_ID=
+            export AWS_SECRET_ACCESS_KEY=
             export AWS_DEFAULT_REGION=us-east-1
             export AWS_DEFAULT_OUTPUT=table
           '';
