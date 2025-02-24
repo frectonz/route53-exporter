@@ -1133,7 +1133,7 @@ dependencies = [
 
 [[package]]
 name = "route53-exporter"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "aws-config",
  "aws-sdk-route53",
